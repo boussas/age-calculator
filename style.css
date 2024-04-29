@@ -123,26 +123,8 @@ body {
     position: relative;
 }
 
-.valid-year {
-    width: fit-content;
-    position: absolute;
-    font-size: 10px;
-    text-transform: capitalize;
-    z-index: 5;
-    color: red;
-    display: none;
-}
-
-.valid-day {
-    width: fit-content;
-    position: absolute;
-    font-size: 10px;
-    text-transform: capitalize;
-    z-index: 5;
-    color: red;
-    display: none;
-}
-
+.valid-year,
+.valid-day,
 .valid-month {
     width: fit-content;
     position: absolute;
@@ -152,8 +134,6 @@ body {
     color: red;
     display: none;
 }
-
-
 
 @media (max-width: 450px) {
     body {
@@ -174,6 +154,11 @@ body {
 
     .inputs input {
         width: 80px;
+        font-size: 15px;
+    }
+
+    .inputs input::placeholder {
+        font-weight: 800;
         font-size: 15px;
     }
 
