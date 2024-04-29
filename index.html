@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age calculator app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" sizes="32x32" href="icon.png">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="inputs">
+            <div class="day-conctainer">
+                <h1 class="day-input">Day</h1>
+                <input placeholder="DD" class="day">
+                <p class="valid-day">enter a valid day</p>
+
+            </div>
+            <div class="month-conctainer">
+                <h1 class="month-input">Month</h1>
+                <input placeholder="MM" class="month">
+                <p class="valid-month">enter a valid month</p>
+
+            </div>
+            <div class="year-conctainer">
+                <h1 class="year-input">Year</h1>
+                <input placeholder="YYYY" class="year">
+                <p class="valid-year">enter a valid year</p>
+            </div>
+        </div>
+        <div class="sec2">
+            <button class="calculate arrow">Calculate</button>
+        </div>
+        <div class="calculated-age">
+            <div class="calculated-year"><span class="number-years">--</span> years</div>
+            <div class="calculated-months"><span class="number-months">--</span> months</div>
+            <div class="calculated-days"><span class="number-days">--</span> days</div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+
+</html>
