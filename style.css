@@ -193,8 +193,8 @@ body {
     }
 }
 
-@media (min-width: 800px) {
+@media (max-width: 800px) {
     .container {
-        width: 500px;
+        width: fit-content;
     }
 }
