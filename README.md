@@ -1,4 +1,4 @@
 # age-calculator
-a small Age calculator app
+ Age calculator
 
 icon link: https://www.flaticon.com/free-icons/adult
